@@ -2,7 +2,7 @@ module.exports = {
   "oauth2": {
     authorizationURL: 'http://localhost:3000/oauth2/dialog/authorize',
     tokenURL: 'http://localhost:3000/oauth2/token',
-    clientID: "MyAgileClient2",
+    clientID: "AuthCodeClient",
     clientSecret: "Ultrasecretstuff",
     callbackURL: "http://localhost:3002/auth/example/callback",
     userInfoUrl: 'http://localhost:3000/oauth2/api/userinfo'
